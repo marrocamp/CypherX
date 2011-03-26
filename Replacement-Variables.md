@@ -1,4 +1,4 @@
-Replacement variables is (currently) an extremely basic method used to replace part of a string with a dynamic variable such as a player name.  Five of the current customizable strings allow replacement variables and are detailed below.
+Replacement variables is (currently) an extremely basic method used to replace part of a string with a dynamic variable such as a player name.  Seven of the current customizable strings allow replacement variables and are detailed below.
 
 * register.err.password
     * %1 - value of config.yml node register.pw-min-length
