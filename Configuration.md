@@ -18,6 +18,13 @@ Number of strikes (incorrect password attempts) a player will receive.
         * `enabled: true`  
 Toggle the strike system on/off.
 
+* **security:**
+    * **filter:**  
+        * `allowed: abcdefghijklmnopqrstuvwxyz0123456789_- ()[]{}`  
+Characters that are allowed to be used in a players name.
+        * `enabled: true`  
+Turn the filter on/off
+
 * **registration:**
     * `enabled: true`  
 Toggle new registrations on/off.
