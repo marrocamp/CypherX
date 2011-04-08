@@ -15,7 +15,11 @@ _**Player (in-game) commands:**_
 
 **/authreload** - Reloads the configuration and account files. (requires correct permission level)  
 
-**/toggle \<reg | changepw | autosave\>** - Toggle registration, password changes, or autosave on/off.  
+**/toggle \<reg | changepw | autosave | filter | blankname | verifyip | strike | forcereg\>** - Toggle registration, password changes, or autosave on/off.  
+
+**/logout** - Terminates the session of the player who uses the command.  
+
+**/logout \<player\>** - Terminates the session of the specified player. (requires correct permission level)
 
 ***
 
@@ -29,4 +33,6 @@ _**Console commands:**_
 
 **/authreload** - Reloads the xAuth configuration and account files  
 
-**/toggle \<reg | changepw | autosave\>** - Toggle registrations, password changes, or autosave on/off.
+**/toggle \<reg | changepw | autosave | filter | blankname | verifyip | strike | forcereg\>** - Toggle registrations, password changes, or autosave on/off.  
+
+**/logout \<player\>** - Terminate the session of the specified player.
