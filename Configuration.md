@@ -4,6 +4,8 @@ The configuration is divided up into nodes that each have one or multiple proper
 
 ***
 * **session:**
+    * `verifyip: true`  
+Enable/disable IP verification upon resuming a session.
     * `timeout: 3600`  
 The length of time, in seconds, that a players session will be preserved.  During this time they will not have to re-authenticate themselves if they log out and back in.
 
@@ -18,18 +20,34 @@ Number of strikes (incorrect password attempts) a player will receive.
         * `enabled: true`  
 Toggle the strike system on/off.
 
-* **security:**
-    * **filter:**  
-        * `allowed: abcdefghijklmnopqrstuvwxyz0123456789_- ()[]{}`  
-Characters that are allowed to be used in a players name.
-        * `enabled: true`  
-Turn the filter on/off
-
 * **registration:**
     * `enabled: true`  
 Toggle new registrations on/off.
-    * `pw-min-length: 3`  
+    * `forced: true`  
+Enable/disable forced registration
+
+* **password:**
+    * complexity:
+        * `uppercase: false`  
+Require at least one uppercase letter in passwords
+        * `enabled: false`  
+Enable/disable password complexity requirements
+        * `symbols: false`  
+Require at least one symbol character in passwords
+        * `numbers: false`  
+Require at least one number in passwords
+        * `lowercase: false`  
+Require at least one lowercase letter in passwords
+    * `min-length: 3`  
 Minimum length a players password must be when registering or changing their password.
+
+* **filter:**  
+    * `allowed: abcdefghijklmnopqrstuvwxyz0123456789_- ()[]{}`  
+Characters that are allowed to be used in a players name.
+    * `enabled: true`  
+Turn the filter on/off
+    * `block-blankname: true`  
+Block players with blank names from connecting
 
 * **misc:**
     * `allow-changepw: true`  
