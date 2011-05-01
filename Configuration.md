@@ -19,6 +19,8 @@ The length of time, in seconds, between notification messages of an illegal acti
 Number of strikes (incorrect password attempts) a player will receive.
         * `enabled: true`  
 Toggle the strike system on/off.
+        * `action: kick`  
+What happens when a player passes the strike amount?  Valid options are kick and banip.
 
 * **registration:**
     * `enabled: true`  
