@@ -58,5 +58,7 @@ Toggle password changes on/off.
         * `- /register`  
         * `- /login`  
 The commands a player who has not logged may execute.
+    * `protect-location: true`  
+Whether to conceal a players position until they have logged in by teleporting them to the spawn.
     * `autosave: true`  
 Toggle on/off the saving of accounts to file after every registration, password change, and removal of an account.  It's recommended to leave this set to true unless performance issues begin to occur.
