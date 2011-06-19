@@ -1,0 +1,9 @@
+**Version 2.0 (Beta 1)** - June 19, 2011
+* Initial release
+
+***
+**Version 1.2.5**
+* Various NullPointerException errors fixed
+* Players will now be teleported to ground level instead of underground or in the air when not logged in
+* Added configuration node to turn on/off location protection (misc.protect-locaton)
+* MineQuest entity interaction fixed
