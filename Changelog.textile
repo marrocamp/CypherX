@@ -7,3 +7,110 @@
 * Players will now be teleported to ground level instead of underground or in the air when not logged in
 * Added configuration node to turn on/off location protection (misc.protect-locaton)
 * MineQuest entity interaction fixed
+
+***
+**Version 1.2.4**
+* Any issue involving players falling into the void should be fixed (see next item)
+* Players are now teleported to the spawn until they log in
+* Compatibility with MultiInv, Backpack, and iZone
+* The strike system can now be configured to either kick a player or ban their IP address
+* The command '/l' (that's an L) has been added for /login
+
+***
+**Version 1.2.3**
+* Updated to work with Minecraft 1.5
+
+***
+**Version 1.2.2**
+* Permissions error spam should be fixed
+* Messages telling a player they must register/login are now displayed after "x has joined the server"
+* Fixed some compatibility issues with other plugins
+* (Technical) All events now use Priority.Lowest instead of Priority.Highest
+* Code cleaned up
+
+***
+**Version 1.2.1**
+* Fix for servers without Permissions installed.
+
+***
+**Version 1.2**
+* Passwords are now stored as Whirlpool hashes (existing passwords are converted when a player logs in)
+* Configurable password complexity implemented
+* Option to block players with blank names from connecting
+* Players are no longer disconnected if someone with the same name joins
+* /logout command added
+* New arguments for /toggle
+* Unregistering an online player now notifies them and hides their inventory
+* Added ability to enable/disable IP verification (session.verifyip)
+* Added ability to enable/disable forced registration (registration.force)
+* Added permission node 'xauth.exclude' to exclude a group/player from having to register
+* Configuration node registration.pw-min-length has been changed to password.min-length
+* Configuration node security.filter.* has been changed to filter.*
+* Possible fix for COMMAND_PREPROCESS bug, it'll now output an error message to help debug it
+* All xauth.admin.toggle.* permission nodes have been grouped into xauth.admin.toggle
+
+***
+**Version 1.1.6**
+* Support CraftBukkit build #612
+
+***
+**Version 1.1.5**
+* Updated to latest recommended build
+* Added a filter for illegal characters in player names (configurable)
+* Movement that involves nothing but falling is now allowed to fix the annoying bouncing
+
+***
+**Version 1.1.4.1**
+* Fix command breaking bug pointed out in "this":http://forums.bukkit.org/threads/sec-xauth-v1-1-4-offline-player-registration-440-560.8712/page-3#post-157121 post.
+
+***
+**Version 1.1.4**
+* Customizable messages
+* Inventory loss when used with MultiInv should be fixed
+* Ability to use commands from (some) other plugins should be fixed
+* Implemented a strike system
+* Fixed a bug that prevented the accounts file from updated
+* Lag/delay when joining a server with a large amount registered accounts reduced
+
+***
+**Version 1.1.3**
+* /toggle command added with 3 new permission nodes
+* Fixed bug where accounts were wiped under rare conditions
+* /changepw now checks if the new password meets the pw-min-length config value
+* Configuration node misc.save-on-change has been changed to misc.autosave. Your config.yml should automatically update
+* Linux version of xAuthImporter has been added.
+
+***
+**Version 1.1.2**
+* Permissions support, nodes are listed above
+* xAuth will disabled itself if the server is running in online-mode
+* /remove has been changed to /unregister
+* /changepw (to change anyone's password) and /unregister can now be used in-game
+* Name bug pointed out in "this":http://forums.bukkit.org/threads/sec-xauth-v1-1-1-offline-player-registration-440-556.8712/#post-143658
+ post should be fixed
+* Configuration node 'misc.allow-change-pw' has been changed to 'misc.allow-changepw'. This *should* be updated automatically in your config.yml.
+
+***
+**Version 1.1.1**
+* Inventories are no longer lost if the server is stopped / reloaded when a player is not logged in.
+* (Possible) Lag reduction on servers with a large amount of players while a player who isn't logged in is connecting. (Needs to be tested on a large server)
+* Four new configurable settings in config.yml
+* /authreload can now be used in-game by Ops. (Will add Permissions support eventually)
+
+***
+**Version 1.1.0**
+* Inventories are no longer lost upon leaving the server without logging in.
+* Major revision of how sessions are handled.
+* Console now outputs a message when a player registers, logs in, or changes their password.
+
+***
+**Version 1.02**
+* Players no longer have to re-log in if their session expires while they're online.
+
+***
+**Version 1.01**
+* Fixed bug where if a player logged out while their session is still active then logged back in after the session should be expired they wouldn't have to log in.
+
+***
+**Version 1.0**
+* Initial release
