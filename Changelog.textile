@@ -1,3 +1,10 @@
+**Version 2.0 (Beta 2)** - June 20, 2011
+* Fixed ENTITY_DAMAGE ClassCastException reported in "this":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-1-offline-mode-security-suite-689-860.8712/page-18#post-397808 post
+* Account activation fixed for servers using web registration
+* Error when a MySQL DATETIME field is 0000-00-00 00:00:00 fixed
+* Resetting of active status to 0 upon logging in fixed
+
+***
 **Version 2.0 (Beta 1)** - June 19, 2011
 * Initial release
 
