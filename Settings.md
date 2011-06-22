@@ -1,3 +1,9 @@
+| Node | Field | Type | Default Value |
+|------|-------|------|---------------|
+| main.datasource | datasource | String | default|
+| main.auto-disable | autoDisable | Boolean | true |
+| main.reverse-enforce-single-session | reverseESS | Boolean | true |
+
 <pre><code>#
 # Configuration file for xAuth
 #
