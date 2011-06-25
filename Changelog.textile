@@ -1,3 +1,11 @@
+**Version 2.0 (Beta 3)** - June 24, 2011
+* Fixed StringIndexOutOfBoundsException with WorldEdit reported "here":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-2-offline-mode-security-suite-689-860.8712/page-18#post-407174.
+* Accounts/Session are now reloaded from the database when a player joins to allow external modification
+* Allowed commands configuration (guest.allowed-commands)
+* Inventory protection now stores items and armor in the database to prevent item loss
+* register.error.disabled message fixed
+
+***
 **Version 2.0 (Beta 2)** - June 20, 2011
 * Fixed ENTITY_DAMAGE ClassCastException reported in "this":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-1-offline-mode-security-suite-689-860.8712/page-18#post-397808 post
 * Account activation fixed for servers using web registration
