@@ -1,8 +1,24 @@
-| Node | Field | Type | Default Value |
-|------|-------|------|---------------|
-| main.datasource | datasource | String | default|
-| main.auto-disable | autoDisable | Boolean | true |
-| main.reverse-enforce-single-session | reverseESS | Boolean | true |
+|Node|Field|Type|Default Value|Description|
+|----|-----|----|-------------|-----------|
+|main.datasource|datasource|String|default|System of data persistence xAuth will use.<br />Values: default, mysql|
+|main.auto-disable|autoDisable|Boolean|true|If set to true, xAuth will disable itself if the server is running in online-mode.|
+|main.reverse-enforce-single-session|reverseESS|Boolean|true|Kicks the player connecting if a player with the same name is already online.|
+|mysql.host|mysqlHost|String|localhost|Location of the MySQL server. Can be either a host name or IP address.|
+|mysql.port|mysqlPort|Integer|3306|Port used by the MySQL server.
+|mysql.username|mysqlUser|String|root|User name used to connect to the MySQL server.|
+|mysql.password|mysqlPass|String||Password used to connect to the MySQL server.|
+|mysql.database|mysqlDb|String||Name of the database that will be used by xAuth.|
+|mysql.tables.account|tblAccount|String|accounts|Name of the table that player accounts will be stored in.|
+|mysql.tables.session|tblSession|String|sessions|Name of the table that player sessions will be stored in.|
+|mysql.tables.strike|tblStrike|String|strike_bans|Name of the table that strike system bans will be stored in.|
+|mysql.tables.location|tblLocation|String|tele_locations|Name of the table that teleport locations will be stored in.|
+|mysql.tables.inventory|tblInventory|String|inventory|Name of the table that player inventories will be stored in.|
+|registration.enabled|regEnabled|Boolean|true|Turn on/off new registrations.|
+|registration.forced|regForced|Boolean|true|If set to true, all players will be forced to register.|
+|registration.require-email|requireEmail|Boolean|false|Setting this to true requires a player to enter an email address upon registration.|
+|registration.validate-email|validateEmail|Boolean|true|If set to true, email addresses will be checked for validity.|
+|registration.allow-multiple|allowMultiple|Boolean|true|Setting this to false will impose a limit of one account per IP address.|
+|registration.activation|activation|Boolean|false|Used with web registrations that require account activation.|
 
 <pre><code>#
 # Configuration file for xAuth
