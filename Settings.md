@@ -31,6 +31,7 @@
 |guest.timeout|guestTimeout|Integer|300|Amount of time, in seconds, that a player has to log in before they are kicked.<br />Set as 0 to disable.|
 |guest.notify-cooldown|notifyCooldown|Integer|5|Amount of time, in seconds, between "You must be logged in.." messages.|
 |guest.allowed-commands|allowedCmds|String List|[register, login, l]|Commands that players who are not registered or logged in may execute.|
+|guest.protect-location|protectLoc|Boolean|true|Turn on/off location protection|
 |session.length|sessionLength|Integer|3600|Amount of time, in seconds, that a session will remain valid.|
 |session.verifyip|verifyIp|Boolean|true|Verify a player's IP address when resuming a session.|
 |session.godmode-length|godmodeLength|Integer|5|Length of time, in seconds, that a player will have godmode upon logging in.<br />Set to 0 to disable.
@@ -69,6 +70,7 @@ mysql:
         session: sessions
         strike: strike_bans
         location: tele_locations
+        inventory: inventory
 
 registration:
     # Enable/disable new registrations
@@ -114,6 +116,10 @@ guest:
     timeout: 300
     # Amount of time, in seconds, between "You must be logged in.." messages
     notify-cooldown: 5
+    # Commands that players who are not registered or logged in may execute
+    allowed-commands: [register, login, l]
+    # Turn on/off location protection
+    protect-location: true
 
 session:
     # Amount of time, in seconds, that a session will remain valid
@@ -133,4 +139,4 @@ filter:
     blankname: true
 
 # INTERNAL USE ONLY! DO NOT TOUCH!
-version: 1</code></pre>
+version: 3</code></pre>
