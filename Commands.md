@@ -40,3 +40,6 @@ Description: View information about or change a xAuth setting
 Syntax: `/xauth reload`  
 Permission Node: `xauth.admin.reload`  
 Description: Reload the xAuth configuration
+
+Syntax: `/xauth version`
+Description: Displays the version of xAuth being used.
