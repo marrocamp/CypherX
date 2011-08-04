@@ -1,3 +1,22 @@
+**Version 2.0 (Beta 4)** - August 4, 2011
+* Spout (BukkitContrib) compatibility fixed
+* authURL support (thanks moparisthebest!)
+* EasyBan conflict fixed
+* Global teleport locations added (/xauth location set|remove [global])
+* Support for IPv6
+* Option to automatically download required libraries
+* Support for Bukkit 'Superperms' Permissions
+* Possible fix for the spawn location issues
+* Fixed the bug reported in "this":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-3-5-offline-mode-security-suite-928-1000.8712/page-26#post-529269 post
+
+**Version 2.0 (Beta 3.5)** - July 7, 2011
+* Fixed a bunch of issues with disabling forced registration
+* Database connection will be re-established if the previous connection is closed
+* Location protection can now be turned on/off
+* Added version command (/xauth version)
+* Fixed the bug reported in "this":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-3-offline-mode-security-suite-689-860-928-953.8712/page-21#post-447819 post
+
+***
 **Version 2.0 (Beta 3)** - June 24, 2011
 * Fixed StringIndexOutOfBoundsException with WorldEdit reported "here":http://forums.bukkit.org/threads/sec-xauth-v2-0-beta-2-offline-mode-security-suite-689-860.8712/page-18#post-407174.
 * Accounts/Session are now reloaded from the database when a player joins to allow external modification
