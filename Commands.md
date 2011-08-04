@@ -29,7 +29,7 @@ Syntax: `/xauth unregister <player>`
 Permission Node: `xauth.admin.unregister`  
 Description: Remove the account of the specified player
 
-Syntax: `/xauth (location|loc) (set|remove)`  
+Syntax: `/xauth (location|loc) (set|remove) [global]`  
 Permission Node: `xauth.admin.location`  
 Description: Set/remove the current worlds teleport location
 
