@@ -1,3 +1,11 @@
+**Version 2.0 (Beta 4.1)** - August 19, 2011
+* Setting 'allow-multiple' has been changed to 'account-limit'. A new message replacement variable, {ACCOUNTLIMIT}, has also been added.
+* Fixed NPE when changing the password, logging out, or unregistering an offline player
+* Spaces may now be used in command arguments by using quotes
+* Fixed the ability to use commands while not logged in when used with Spout
+* Overhaul of the strike system including management commands.
+
+***
 **Version 2.0 (Beta 4)** - August 4, 2011
 * Spout (BukkitContrib) compatibility fixed
 * authURL support (thanks moparisthebest!)
