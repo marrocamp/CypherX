@@ -1,1 +1,1 @@
-Moved to [Configuration](https://github.com/CypherX/xAuth/wiki/Configuration)
+Moved to [Configuration](https://github.com/CypherX/xAuth/wiki/Configuration).
