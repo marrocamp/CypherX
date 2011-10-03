@@ -13,7 +13,7 @@ Replace the H2 database library file located in _server root/lib_ with [this](ht
 **Explanation:**  
 There are two reasons why this error might occur.  The table used to store strike information is missing from the database **OR** the name of said table in the configuration is incorrect.
 
-**Solution:**
+**Solution:**  
 Open the xAuth configuration file and change the value of _mysql.tables.strike_ to 'strike_bans' (without the quotes) and restart the server.  If this does not solve your problem, follow the instructions below.
 
 1. [Start the H2 Console](http://www.h2database.com/html/tutorial.html#tutorial_starting_h2_console) (the server must be stopped).
