@@ -9,7 +9,5 @@ Normal = To-do
 * Customizable messages handling
     - Update automatically
 * **Database Back-end**
-    - Ability to hook into for xAuth extensions
-        * Scratch that, don't feel like dealing with it. Maybe in the future.
     - **Update automatically**
 * Core features
