@@ -10,6 +10,6 @@ Normal = To-do
     - Update automatically
 * ~~Database Back-end~~
     - ~~Update automatically~~
-* ***Player Manager***
+* **Player Manager**
 * Listeners / Events
 * Commands
