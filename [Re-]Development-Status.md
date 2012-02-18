@@ -8,6 +8,6 @@ Normal = To-do
     - ~~Update automatically~~
 * Customizable messages handling
     - Update automatically
-* **Database Back-end**
-    - **Update automatically** (Finally decided on a method to use, will be done soon)
+* ~~Database Back-end~~
+    - ~~Update automatically~~ (Finally decided on a method to use, will be done soon)
 * Core features
