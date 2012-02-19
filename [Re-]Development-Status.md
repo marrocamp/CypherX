@@ -3,7 +3,7 @@
 Normal = To-do
 
 ***
-* **Absolutely nothing**
+* **Absolutely nothing** (Don't get the wrong idea, I just have started on anything else yet)
 * ~~Set up Eclipse~~  
 * ~~Configuration handling~~ (Much better than the previous method)
     - ~~Update automatically~~
