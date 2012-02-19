@@ -3,7 +3,7 @@
 Normal = To-do
 
 ***
-* **Absolutely nothing** (Don't get the wrong idea, I just have started on anything else yet)
+* Absolutely nothing (Don't get the wrong idea, I just have started on anything else yet)
 * ~~Set up Eclipse~~  
 * ~~Configuration handling~~ (Much better than the previous method)
     - ~~Update automatically~~
@@ -11,6 +11,6 @@ Normal = To-do
     - Update automatically
 * ~~Database Back-end~~
     - ~~Update automatically~~
-* Player Manager
+* **Player Manager**
 * Listeners / Events
 * Commands
