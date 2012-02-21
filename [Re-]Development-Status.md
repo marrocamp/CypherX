@@ -12,5 +12,5 @@ Normal = To-do
 * ~~Database Back-end~~
     - ~~Update automatically~~
 * **Player Manager**
-* Listeners / Events
+* **Listeners / Events**
 * Commands
