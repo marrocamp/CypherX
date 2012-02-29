@@ -14,5 +14,5 @@ Normal = To-do
 * **Player Manager**
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
-* Commands
+* **Commands**
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
