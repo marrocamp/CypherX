@@ -11,7 +11,7 @@ Normal = To-do
     - ~~Update automatically~~
 * ~~Database Back-end~~
     - ~~Update automatically~~
-* **Player Manager**
+* **Player Manager** (Technically "done", but extra methods may be added.)
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
     - **Player Listener**
@@ -23,4 +23,6 @@ Normal = To-do
     - Logout
     - Change Password
     - Other
+* Strike System
+* Teleport Location Manager
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
