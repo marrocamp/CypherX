@@ -14,6 +14,9 @@ Normal = To-do
 * **Player Manager**
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
+    - **Player Listener**
+    - ~~Block Listener~~
+    - ~~Entity Listener~~
 * **Commands**
     - ~~Register~~
     - ~~Login~~
