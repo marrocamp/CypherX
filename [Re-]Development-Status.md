@@ -20,7 +20,7 @@ Normal = To-do
 * **Commands**
     - ~~Register~~
     - ~~Login~~
-    - Logout
+    - ~~Logout~~
     - Change Password
     - Other
 * Strike System
