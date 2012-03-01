@@ -15,4 +15,9 @@ Normal = To-do
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
 * **Commands**
+    - ~~Register~~
+    - ~~Login~~
+    - Logout
+    - Change Password
+    - Other
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
