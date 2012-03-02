@@ -21,7 +21,7 @@ Normal = To-do
     - ~~Register~~
     - ~~Login~~
     - ~~Logout~~
-    - Change Password
+    - **Change Password**
     - Other
 * Strike System
 * Teleport Location Manager
