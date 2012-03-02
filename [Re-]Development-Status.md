@@ -25,4 +25,5 @@ Normal = To-do
 * Password Handler (Hashing)
 * Strike System
 * Teleport Location Manager
+* Name filter
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
