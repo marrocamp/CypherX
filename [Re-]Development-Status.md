@@ -21,8 +21,8 @@ Normal = To-do
     - ~~Register~~
     - ~~Login~~
     - ~~Logout~~
-    - **Change Password**
-    - Other
+    - ~~Change Password~~
+    - Admin/xAuth
 * Strike System
 * Teleport Location Manager
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
