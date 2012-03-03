@@ -2,7 +2,7 @@
 **Bolded** = In progress  
 Normal = To-do
 
-**Release Date: March 16, 2012**
+**Release Date:** March 16, 2012
 
 ***
 * ~~Set up Eclipse~~  
