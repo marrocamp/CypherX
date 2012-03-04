@@ -12,7 +12,7 @@ Normal = To-do
     - ~~Update automatically~~
 * ~~Database Back-end~~
     - ~~Update automatically~~
-* **Player Manager** (Technically "done", but extra methods may be added.)
+* ~~Player Manager~~
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
     - **Player Listener**
