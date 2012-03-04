@@ -15,7 +15,7 @@ Normal = To-do
 * ~~Player Manager~~
 * **Listeners / Events**
     - ~~Customizable Restrictions~~
-    - **Player Listener**
+    - **Player Listener** (Need to implement allowed commands.. Yes, it would take five seconds)
     - ~~Block Listener~~
     - ~~Entity Listener~~
 * **Commands**
