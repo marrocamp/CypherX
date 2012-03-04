@@ -25,7 +25,7 @@ Normal = To-do
     - ~~Change Password~~
     - Admin/xAuth
 * Password Handler (Hashing)
-* Strike System
+* ~~Strike System~~
 * **Teleport Location Manager**
 * Name filter
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
