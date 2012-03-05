@@ -24,9 +24,9 @@ Normal = To-do
     - ~~Logout~~
     - ~~Change Password~~
     - Admin/xAuth
-* **Password Handler (Hashing)**
+* ~~Password Handler (Hashing)~~
     - ~~Default hashing~~
-    - **Importing from other plugins**
+    - ~~Importing from other plugins/algorithms~~
 * ~~Strike System~~
 * ~~Teleport Location Manager~~
 * ~~Name filter~~
