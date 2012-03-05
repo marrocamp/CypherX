@@ -23,7 +23,7 @@ Normal = To-do
     - ~~Login~~
     - ~~Logout~~
     - ~~Change Password~~
-    - Admin/xAuth
+    - **Admin/xAuth** (I hate working on these commands)
 * ~~Password Handler (Hashing)~~
     - ~~Default hashing~~
     - ~~Importing from other plugins/algorithms~~
