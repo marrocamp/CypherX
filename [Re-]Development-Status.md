@@ -13,9 +13,9 @@ Normal = To-do
 * ~~Database Back-end~~ (Uses a connection pool!)
     - ~~Update automatically~~
 * ~~Player Manager~~
-* **Listeners / Events**
+* ~~Listeners / Events~~
     - ~~Customizable Restrictions~~
-    - **Player Listener** (Need to implement allowed commands.. Yes, it would take five seconds)
+    - ~~Player Listener~~
     - ~~Block Listener~~
     - ~~Entity Listener~~
 * **Commands**
