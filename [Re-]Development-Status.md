@@ -10,7 +10,7 @@ Normal = To-do
     - ~~Update automatically~~
 * ~~Customizable messages handling~~ (Also handled much better than in previous versions)
     - ~~Update automatically~~
-* ~~Database Back-end~~
+* ~~Database Back-end~~ (Uses a connection pool!)
     - ~~Update automatically~~
 * ~~Player Manager~~
 * **Listeners / Events**
