@@ -31,7 +31,7 @@ Normal = To-do
 * ~~Teleport Location Manager~~
 * ~~Name filter~~
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
-* Import Tool
-    - xAuth v1
+* **Import Tool**
+    - ~~xAuth v1~~
     - xAuth v2 Beta
     - MD5/SHA1/SHA256 (AuthMe)
