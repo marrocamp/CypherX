@@ -33,5 +33,5 @@ Normal = To-do
 * ~~Permissions Support~~ (PermissionsEx & bPermissions)
 * **Import Tool**
     - ~~xAuth v1~~
-    - xAuth v2 Beta
+    - **xAuth v2 Beta**
     - MD5/SHA1/SHA256 (AuthMe)
