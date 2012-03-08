@@ -26,8 +26,8 @@ Normal = To-do
     - **Admin/xAuth** (I hate working on these commands)
         - ~~Register~~
         - ~~Change Password~~
-        - Logout
-        - Unregister
+        - ~~Logout~~
+        - **Unregister**
         - Location Management
         - Lockout Management
 * ~~Password Handler (Hashing)~~
