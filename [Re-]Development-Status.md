@@ -24,6 +24,12 @@ Normal = To-do
     - ~~Logout~~
     - ~~Change Password~~
     - **Admin/xAuth** (I hate working on these commands)
+        - ~~Register~~
+        - ~~Change Password~~
+        - Logout
+        - Unregister
+        - Location Management
+        - Lockout Management
 * ~~Password Handler (Hashing)~~
     - ~~Default hashing~~
     - ~~Importing from other plugins/algorithms~~
