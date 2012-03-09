@@ -28,7 +28,7 @@ Normal = To-do
         - ~~Change Password~~
         - ~~Logout~~
         - ~~Unregister~~
-        - **Location Management**
+        - ~~Location Management~~
         - Lockout Management
 * ~~Password Handler (Hashing)~~
     - ~~Default hashing~~
