@@ -33,7 +33,7 @@ Syntax: `/xauth (location|loc) (set|remove) [global]`
 Permission Node: `xauth.admin.location`  
 Description: Set/remove the current worlds teleport location
 
-(Temporarily removed)
+(Temporarily removed)  
 ~~Syntax: `/xauth reload`~`  
 ~~Permission Node: `xauth.admin.reload`~~  
 ~~Description: Reload the xAuth configuration~~
