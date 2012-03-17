@@ -1,3 +1,15 @@
+**Version 2.0** - March 16, 2012
+* Happy Birthday xAuth!
+* Complete re-development of the codebase.
+* MySQL is now the only supported datasource.
+* Customizable restrictions have been implemented.
+* Fixed exploit allowing anyone to bypass the login by connecting with two clients.
+    - Setting _reverse-enforce-single-session_ removed as a result of this.
+* Added support for enchantments.
+* Added support for Minecraft 1.2.*
+* Numerous other changes that I'm too lazy to list.
+
+***
 **Version 2.0 (Beta 4.1)** - August 19, 2011
 * Setting 'allow-multiple' has been changed to 'account-limit'. A new message replacement variable, {ACCOUNTLIMIT}, has also been added.
 * Fixed NPE when changing the password, logging out, or unregistering an offline player
@@ -155,5 +167,5 @@
 * Fixed bug where if a player logged out while their session is still active then logged back in after the session should be expired they wouldn't have to log in.
 
 ***
-**Version 1.0**
+**Version 1.0** - March 16, 2011
 * Initial release
