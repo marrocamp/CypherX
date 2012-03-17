@@ -11,7 +11,7 @@ Description: Allows a player to change their password
 Syntax: `/logout`  
 Description: Ends the current players session
 
-**(All commands below this point, except `/xauth location`, can be used in the server console)**
+**(All commands below this point, excluding `/xauth location`, can be used in the server console)**
 
 Syntax: `/xauth register <player> <password> [email]`  
 Permission Node: `xauth.admin.register`  
@@ -33,13 +33,7 @@ Syntax: `/xauth (location|loc) (set|remove) [global]`
 Permission Node: `xauth.admin.location`  
 Description: Set/remove the current worlds teleport location
 
-Syntax: `/xauth (config|conf) <setting> [value]`  
-Permission Node: `xauth.admin.config`  
-Description: View information about or change a xAuth setting
-
-Syntax: `/xauth reload`  
-Permission Node: `xauth.admin.reload`  
-Description: Reload the xAuth configuration
-
-Syntax: `/xauth version`  
-Description: Displays the version of xAuth being used.
+(Temporarily removed)
+~~Syntax: `/xauth reload`~`  
+~~Permission Node: `xauth.admin.reload`~~  
+~~Description: Reload the xAuth configuration~~
