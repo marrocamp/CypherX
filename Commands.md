@@ -34,6 +34,6 @@ Permission Node: `xauth.admin.location`
 Description: Set/remove the current worlds teleport location
 
 (Temporarily removed)  
-~~Syntax: `/xauth reload`~`  
+~~Syntax: `/xauth reload`~~  
 ~~Permission Node: `xauth.admin.reload`~~  
 ~~Description: Reload the xAuth configuration~~
