@@ -41,5 +41,21 @@ Description: Set/remove the current worlds teleport location
 ***
 
 **Addition Permissions**  
-`test  
-test`
+
+`xauth.allow.player.chat` - Allow the player/group to chat while not logged in.  
+`xauth.allow.player.interact` - Allow the player/group to interact with levels, switches, etc. while not logged in.  
+`xauth.allow.player.move` - Allow the player/group to move while not logged in.  
+`xauth.allow.player.pickup` - Allow the player/group to pick up items while not logged in.
+`xauth.allow.block.place` - Allow the player/group to place blocks while not logged in.  
+`xauth.allow.block.break` - Allow the player/group to break blocks while not logged in.  
+`xauth.allow.entity.damage` - Allow the player/group to give and receive damage while not logged in.  
+`xauth.allow.entity.target` - Allow the player/group to be targeted (followed) by mobs while not logged in.
+
+`xauth.disallow.player.chat` - Prevent the player/group from chatting while not logged in.  
+`xauth.disallow.player.interact` - Prevent the player/group from interacting with levels, switches, etc. while not logged in.  
+`xauth.disallow.player.move` - Prevent the player/group from moving while not logged in.  
+`xauth.disallow.player.pickup` - Prevent the player/group from picking up items while not logged in.
+`xauth.disallow.block.place` - Prevent the player/group from placing blocks while not logged in.  
+`xauth.disallow.block.break` - Prevent the player/group from breaking blocks while not logged in.  
+`xauth.disallow.entity.damage` - Prevent the player/group from giving and receiving damage while not logged in.  
+`xauth.disallow.entity.target` - Prevent the player/group from being targeted (followed) by mobs while not logged in.
