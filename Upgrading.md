@@ -10,7 +10,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 4. Place your _auths.txt_ file in the same directory as the importer.
 5. Run the importer:
     - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` and hit enter.
+        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
         2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
     - **Linux**:
         1. Navigate to the directory xAuthImporter.jar is located in.
@@ -27,7 +27,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 4. Place your _xAuth.h2.db_ file in the same directory as the importer.
 5. Run the importer:
     - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` and hit enter.
+        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
         2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
     - **Linux**:
         1. Navigate to the directory xAuthImporter.jar is located in.
@@ -44,7 +44,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 4. Configure the importer.properties file included in the importer to accurately reflect your old and new xAuth configurations.
 5. Run the importer:
     - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` and hit enter.
+        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
         2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
     - **Linux**:
         1. Navigate to the directory xAuthImporter.jar is located in.
