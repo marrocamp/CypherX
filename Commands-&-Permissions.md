@@ -40,6 +40,6 @@ Description: Set/remove the current worlds teleport location
 
 ***
 
-**Addition Permissions**
-`test
+**Addition Permissions**  
+`test  
 test`
