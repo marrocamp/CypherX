@@ -4,7 +4,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 
 ### Upgrading from xAuth v1.0 through v1.2.5
 
-1. Delete the old xAuth plugin and the xAuth folder.
+1. Delete the old xAuth plugin and xAuth's config.yml and messages.yml
 2. Download the latest version of xAuth, configure the included configuration file, and start your server so the MySQL tables are generated. Stop the server now.
 3. Download the flat file importer [here] (http://bit.ly/A9OZT9) and extract all included files into the same directory.
 4. Configure the importer.properties file included in the importer to accurately reflect your xAuth configuration.
@@ -22,8 +22,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 
 ### Upgrading from xAuth v2.0b4.1 or higher (H2)
 
-
-1. Delete the old xAuth plugin and the xAuth folder.
+1. Delete the old xAuth plugin and xAuth's config.yml, messages.yml, and DBVERSION files.
 2. Download the latest version of xAuth, configure the included configuration file, and start your server so the MySQL tables are generated. Stop the server now.
 3. Download the H2 importer [here] (http://bit.ly/zs7Btd) and extract all included files into the same directory.
 4. Configure the importer.properties file included in the importer to accurately reflect your old and new xAuth configurations.
@@ -41,7 +40,7 @@ This page explains how to upgrade to xAuth 2.0 from various previous versions.
 
 ### Upgrading from xAuth v2.0b4.1 or higher (MySQL)
 
-1. Delete the old xAuth plugin and the xAuth folder.
+1. Delete the old xAuth plugin and xAuth's config.yml, messages.yml, and DBVERSION files.
 2. Rename the **accounts** and **sessions** tables in your current database to anything other than what the new tables will be named.
 3. Download the latest version of xAuth, configure the included configuration file, and start your server so the MySQL tables are generated. Stop the server now.
 4. Download the MySQL importer [here] (http://bit.ly/Am1jJ6) and extract all included files into the same directory.
