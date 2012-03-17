@@ -1,0 +1,59 @@
+|Node|Type|Default Value|Description|
+|----|----|-------------|-----------|
+|main.auto-disable|Boolean|true|If set to true, xAuth will disable itself if the server is running in online-mode.|
+
+|mysql.host|String|localhost|Location of the MySQL server. Can be either a host name or IP address.|
+|mysql.port|Integer|3306|Port used by the MySQL server.
+|mysql.user|String|user|User name used to connect to the MySQL server.|
+|mysql.password|String|password|Password used to connect to the MySQL server.|
+|mysql.database|String|xauth|Name of the database that will be used by xAuth.|
+|mysql.tables.account|String|accounts|Name of the table that player accounts will be stored in.|
+|mysql.tables.location|String|locations|Name of the table that teleport locations will be stored in.|
+|mysql.tables.lockout|String|lockouts|Name of the table that strike system lockouts will be stored in.|
+|mysql.tables.playerdata|String|playerdata|Name of the table that player inventories and locations will be stored in.|
+|mysql.tables.session|String|sessions|Name of the table that player sessions will be stored in.|
+
+|authurl.enabled|Boolean|false|Turn on/off authentication over URL.|
+|authurl.url|String|http://google.com|URL used by AuthURL.|
+|authurl.registration|Boolean|false|Turn on/off AuthURL registrations.|
+|authurl.status|Boolean|false|Turn on/off AuthURL online/offline status updates.|
+|authurl.groups|Boolean|false|Turn on/off AuthURL permission group settings.|
+
+|registration.enabled|Boolean|true|Turn on/off new registrations.|
+|registration.forced|Boolean|true|If set to true, all players will be forced to register.|
+|registration.require-email|Boolean|false|Setting this to true requires a player to enter an email address upon registration.|
+|registration.validate-email|Boolean|true|If set to true, email addresses will be checked for validity.|
+|registration.account-limit|Integer|1|Controls how many accounts a specific IP address can register.|
+|registration.activation|Boolean|false|Used with web registrations that require account activation.|
+
+|password.min-length|Integer|6|Minimum length of a valid password.|
+|password.allow-change|Boolean|true|Enable/disable password changes.|
+|password.complexity.lowercase|Boolean|false|If set to true, passwords will require at least one lowercase character.|
+|password.complexity.uppercase|Boolean|false|If set to true, passwords will require at least one uppercase character.|
+|password.complexity.number|Boolean|false|If set to true, passwords will require at least one numerical character.|
+|password.complexity.symbol|Boolean|false|If set to true, passwords will require at least one special character.|
+
+|guest.timeout|Integer|300|Amount of time, in seconds, that a player has to log in before they are kicked.<br />Set as 0 to disable.|
+|guest.notify-cooldown|Integer|5|Amount of time, in seconds, between "You must be logged in.." messages.|
+|guest.protect-location|Boolean|true|Turn on/off location protection|-
+|guest.allowed-commands|String List|[register, login, l]|Commands that players who are not registered or logged in may execute.|
+|guest.restrict.player.chat|Boolean|true|Allow/disallow a player from chatting while they are not logged in.|
+|guest.restrict.player.interact|Boolean|true|Allow/disallow a player from interacting with levers, switches, etc. while they are not logged in.|
+|guest.restrict.player.move|Boolean|true|Allow/disallow a player from moving while they are not logged in.|
+|guest.restrict.player.pickup|Boolean|true|Allow/disallow a player from picking up items while they are not logged in.|
+|guest.restrict.block.place|Boolean|true|Allow/disallow a player from placing blocks while they are not logged in.|
+|guest.restrict.block.break|Boolean|true|Allow/disallow a player from breaking blocks while they are not logged in.|
+|guest.restrict.entity.damage|Boolean|true|Allow/disallow a player from giving and receiving damage while they are not logged in.|
+|guest.restrict.entity.target|Boolean|true|Allow/disallow a player from being targeted (followed) by mobs while they are not logged in.|
+
+|session.length|Integer|3600|Amount of time, in seconds, that a session will remain valid.|
+|session.verifyip|Boolean|true|Verify a player's IP address when resuming a session.|
+|session.godmode-length|Integer|5|Length of time, in seconds, that a player will have godmode upon logging in.<br />Set to 0 to disable.
+
+|strikes.amount|Integer|5|Amount of times a player can enter an incorrect password before action is taken.<br />Set to 0 to disable.|
+|strikes.lockout-length|Integer|3600|Length of time, in seconds, that a player will be locked out after passing the strike threshold.<br />Set to 0 for a permanent ban.|
+
+|filter.min-length|Integer|2|Minimum length a players name can be.|
+|filter.allowed|String||Characters that may be present in a players name.|
+|filter.disallowed|String||Characters that may NOT be present in a players name.|
+|filter.blank-name|Boolean|true|If set to false, players with blank names can connect to the server.|
