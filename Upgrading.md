@@ -10,13 +10,7 @@ This page explains how to upgrade to xAuth 2.0 from older versions.
 4. Download the flat file to MySQL importer [here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28FlatFile%20to%20MySQL%29.zip) and extract all included files into the same directory.
 5. Configure the importer.properties file included in the importer to accurately reflect your xAuth configuration.
 6. Place your **auths.txt** file in the same directory as the importer.
-7. Run the importer:
-    - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
-        2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
-    - **Linux**:
-        1. Navigate to the directory xAuthImporter.jar is located in.
-        2. Execute `java -jar xAuthImporter.jar` to begin the import process.
+7. Run the importer (see the bottom of this page for instructions).
 8. If no errors are shown, your import should have finished successfully.
 
 ***
@@ -29,13 +23,7 @@ This page explains how to upgrade to xAuth 2.0 from older versions.
 4. Download the H2 to H2 importer [here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28H2%20to%20H2%29.zip) and extract all included files into the same directory.
 5. Configure the importer.properties file included in the importer to accurately reflect your old xAuth configuration.
 6. Place **xAuth_old.h2.db** and **xAuth.h2.db** in the same directory as the importer.
-7. Run the importer:
-    - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
-        2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
-    - **Linux**:
-        1. Navigate to the directory xAuthImporter.jar is located in.
-        2. Execute `java -jar xAuthImporter.jar` to begin the import process.
+7. Run the importer (see the bottom of this page for instructions).
 8. If no errors are shown, your import should have finished successfully.
 9. Move **xAuth.h2.db** into your xAuth plugins folder.
 
@@ -49,13 +37,7 @@ This page explains how to upgrade to xAuth 2.0 from older versions.
 4. Download the H2 to MySQL importer [here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28H2%20to%20MySQL%29.zip) and extract all included files into the same directory.
 5. Configure the importer.properties file included in the importer to accurately reflect your old and new xAuth configurations.
 6. Place the **xAuth.h2.db** file in the same directory as the importer.
-7. Run the importer:
-    - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
-        2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
-    - **Linux**:
-        1. Navigate to the directory xAuthImporter.jar is located in.
-        2. Execute `java -jar xAuthImporter.jar` to begin the import process.
+7. Run the importer (see the bottom of this page for instructions).
 8. If no errors are shown, your import should have finished successfully.
 
 ***
@@ -67,11 +49,13 @@ This page explains how to upgrade to xAuth 2.0 from older versions.
 3. Download the latest version of xAuth, configure the included configuration file, and start your server so the MySQL tables are generated. Stop the server now.
 4. Download the MySQL to MySQL importer [here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28MySQL%20to%20MySQL%29.zip) and extract all included files into the same directory.
 5. Configure the importer.properties file included in the importer to accurately reflect your old and new xAuth configurations.
-6. Run the importer:
-    - **Windows**:
-        1. Open Command Prompt, type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and hit enter.
-        2. Now do the same for `java -jar xAuthImporter.jar` to begin the import process.
-    - **Linux**:
-        1. Navigate to the directory xAuthImporter.jar is located in.
-        2. Execute `java -jar xAuthImporter.jar` to begin the import process.
+6. Run the importer (see the bottom of this page for instructions).
 7. If no errors are shown, your import should have finished successfully.
+
+***
+
+###Running the Importer
+
+1. Open Command Prompt (Windows), CLI (*nix), Terminal (Mac).
+2. Type `cd path\to\importer` (replace _path\to\importer_ with the actual path on your computer) and press Enter.
+3. Type `java -jar xAuthImporter` and press Enter to begin the import process.
