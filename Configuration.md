@@ -1,6 +1,8 @@
 |Node|Type|Default Value|Description|
 |----|----|-------------|-----------|
 |main.auto-disable|Boolean|true|If set to true, xAuth will disable itself if the server is running in online-mode.|
+|main.download-library|Boolean|true|If set to true, xAuth will automatically download the required H2 library if it does not exist.|
+|mysql.enabled|Boolean|false|Use MySQL?|
 |mysql.host|String|localhost|Location of the MySQL server. Can be either a host name or IP address.|
 |mysql.port|Integer|3306|Port used by the MySQL server.
 |mysql.user|String|user|User name used to connect to the MySQL server.|
