@@ -58,4 +58,4 @@ This page explains how to upgrade to xAuth 2.0 from older versions.
 
 1. Open Command Prompt (Windows), CLI (*nix), Terminal (Mac).
 2. Type `cd path\to\importer` (replace _path\to\importer_ with the actual path on your computer) and press Enter.
-3. Type `java -jar xAuthImporter` and press Enter to begin the import process.
+3. Type `java -jar xAuthImporter.jar` and press Enter to begin the import process.
