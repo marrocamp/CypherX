@@ -40,7 +40,7 @@ Description: Set/remove the current worlds teleport location
 
 ***
 
-**Addition Permissions**  
+**Additional Permissions**  
 
 `xauth.allow.player.chat` - Allow the player/group to chat while not logged in.  
 `xauth.allow.player.interact` - Allow the player/group to interact with levels, switches, etc. while not logged in.  
