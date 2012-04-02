@@ -1,3 +1,12 @@
+**Version 2.0.4** - April 1, 2012
+* Fixed (for the most part) the loss of items/location when a non-logged in player is kicked as a result of a player with the same name joining. (This can still occur under extremely rare conditions that should never happen in the first place)
+* Fixed issue where a player could register one more account than the account limit.
+* Reduced the number of SQL queries run in an attempt to reduce lag/resource usage.
+* Added /xauth activate command (Allows you to activate inactive accounts)
+* Added /xauth config command (Allows you to edit the configuration without having to open the file and perform a reload)
+* Allow/disallow permission checks are now only executed when a player is not logged in.
+
+***
 **Version 2.0.3** - March 21, 2012
 * Fixed: Players being kicked for flying when not-logged in as a result of constant teleportation into the air.
 * Player potion effects are now properly stored, cleared, and restored.
