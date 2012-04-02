@@ -37,6 +37,14 @@ Syntax: `/xauth reload`
 Permission Node: `xauth.admin.reload`  
 Description: Reload the xAuth configuration and player cache.
 
+Syntax: `/xauth activate <player>'  
+Permission Node: `xauth.admin.activate`  
+Description: Manually activate a player.
+
+Syntax `/xauth (config|conf) <node> <value>`  
+Permission Node: `xauth.admin.config`  
+Description: Modify a configuration value.
+
 ***
 
 **Additional Permissions**  
