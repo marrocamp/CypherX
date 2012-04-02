@@ -54,7 +54,7 @@ misc:
     reloaded: '{RED}Server reloaded, you must log in.'
 
 admin:
-    permissions: 'You do not have permission to use this command!'
+    permission: 'You do not have permission to use this command!'
     register:
         usage: '{RED}Correct Usage: /xauth register <player> <password> [email]'
         success: '{BRIGHTGREEN}Account successfully created for: {WHITE}{TARGET}'
@@ -66,7 +66,7 @@ admin:
         success: '{TARGET}''s {BRIGHTGREEN}password has been changed!'
         error:
             registered: '{RED}This player is not registered!'
-            general: '{RED}Something went wrong while changing {TARGET}''s pasword!'
+            general: '{RED}Something went wrong while changing {TARGET}''s password!'
     logout:
         usage: '{RED}Correct Usage: /xauth logout <player>'
         error:
@@ -100,7 +100,22 @@ admin:
                 general: '{RED}Something went wrong while removing this location!'
             success:
                 regular: '{BRIGHTGREEN}Teleport location for this world has been removed!'
-                global: '{BRIGHTGREEN}Global teleport location has been removed!'</code></pre>
+                global: '{BRIGHTGREEN}Global teleport location has been removed!'
+    reload: '{BRIGHTGREEN}xAuth reloaded.'
+    activate:
+        usage: '{RED}Correct Usage: /xauth activate <player>'
+        error:
+            registered: '{RED}This player is not registered!'
+            active: '{RED}This player is already active!'
+            general: '{RED}Something went wrong while activating this player!'
+        success: '{BRIGHTGREEN}{TARGET} has been activated!'
+    config:
+        usage: '{RED}Correct Usage: /xauth config <node> <value>'
+        error:
+            exist: '{RED}This configuration node does not exist!'
+            int: '{RED}This configuration node requires an integer value!'
+            invalid: '{RED}This setting cannot be altered using this command!'
+        success: '{BRIGHTGREEN}Configuration updated!'</code></pre>
 
 ***
 **String Replacements**
