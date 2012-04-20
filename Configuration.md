@@ -18,6 +18,7 @@
 |authurl.registration|Boolean|false|Turn on/off AuthURL registrations.|
 |authurl.status|Boolean|false|Turn on/off AuthURL online/offline status updates.|
 |authurl.groups|Boolean|false|Turn on/off AuthURL permission group settings.|
+|authurl.broadcast-login|Boolean|false|Turn on/off global notifications when a player logins|
 |registration.enabled|Boolean|true|Turn on/off new registrations.|
 |registration.forced|Boolean|true|If set to true, all players will be forced to register.|
 |registration.require-email|Boolean|false|Setting this to true requires a player to enter an email address upon registration.|
@@ -32,7 +33,8 @@
 |password.complexity.symbol|Boolean|false|If set to true, passwords will require at least one special character.|
 |guest.timeout|Integer|300|Amount of time, in seconds, that a player has to log in before they are kicked.<br />Set as 0 to disable.|
 |guest.notify-cooldown|Integer|5|Amount of time, in seconds, between "You must be logged in.." messages.|
-|guest.protect-location|Boolean|true|Turn on/off location protection|-
+|guest.hide-inventory|Boolean|true|Turn on/off inventory hiding|
+|guest.protect-location|Boolean|true|Turn on/off location protection|
 |guest.allowed-commands|String List|[register, login, l]|Commands that players who are not registered or logged in may execute.|
 |guest.restrict.player.chat|Boolean|true|Allow/disallow a player from chatting while they are not logged in.|
 |guest.restrict.player.interact|Boolean|true|Allow/disallow a player from interacting with levers, switches, etc. while they are not logged in.|
