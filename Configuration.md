@@ -55,77 +55,73 @@
 |filter.blank-name|Boolean|true|If set to false, players with blank names can connect to the server.|
 
 <pre><code>main:
-    auto-disable: true
-
+  auto-disable: true
+  download-library: true
 mysql:
-    host: localhost
-    port: 3306
-    user: user
-    password: password
-    database: xauth
-    tables:
-        account: accounts
-        location: locations
-        lockout: lockouts
-        playerdata: playerdata
-        session: sessions
-
+  enabled: false
+  host: localhost
+  port: 3306
+  user: user
+  password: password
+  database: xauth
+  tables:
+    account: accounts
+    location: locations
+    lockout: lockouts
+    playerdata: playerdata
+    session: sessions
 authurl:
-    enabled: false
-    url: http://google.com
-    registration: false
-    status: false
-    groups: false
-
+  enabled: false
+  url: http://google.com
+  registration: false
+  status: false
+  groups: false
+  broadcast-login: false
 registration:
-    enabled: true
-    forced: true
-    require-email: false
-    validate-email: false
-    account-limit: 1
-    activation: false
-
+  enabled: true
+  forced: true
+  require-email: false
+  validate-email: false
+  account-limit: 1
+  activation: false
 password:
-    min-length: 6
-    allow-change: true
-    complexity:
-        lowercase: false
-        uppercase: false
-        number: false
-        symbol: false
-
+  min-length: 6
+  allow-change: true
+  complexity:
+    lowercase: false
+    uppercase: false
+    number: false
+    symbol: false
 guest:
-    timeout: 300
-    notify-cooldown: 5
-    protect-location: true
-    allowed-commands:
-        - register
-        - login
-        - l
-    restrict:
-        player:
-            chat: true
-            interact: true
-            move: true
-            pickup: true
-        block:
-            place: true
-            break: true
-        entity:
-            damage: true
-            target: true
-
+  timeout: 300
+  notify-cooldown: 5
+  hide-inventory: true
+  protect-location: true
+  allowed-commands:
+  - register
+  - login
+  - l
+  restrict:
+    player:
+      chat: true
+      interact: true
+      move: true
+      pickup: true
+    block:
+      place: true
+      break: true
+    entity:
+      damage: true
+      target: true
 session:
-    length: 3600
-    verifyip: true
-    godmode-length: 5
-
+  length: 3600
+  verifyip: true
+  godmode-length: 5
 strikes:
-    amount: 5
-    lockout-length: 3600
-
+  amount: 5
+  lockout-length: 3600
 filter:
-    min-length: 2
-    allowed: ''
-    disallowed: ''
-    blank-name: true</code></pre>
+  min-length: 2
+  allowed: ''
+  disallowed: ''
+  blank-name: true</code></pre>
