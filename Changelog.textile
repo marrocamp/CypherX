@@ -1,3 +1,19 @@
+**Version 2.0.6** - April 19, 2012
+* Health will no longer regenerate for players who are not logged in.
+* Fixed: Location protection activating while guest.protect-location is set to false.
+* Fixed: Item duplication exploit involving connecting with two clients.
+* Fixed: NoLagg "Synchronized code got accessed from another thread" errors.
+* Added option to show/hide inventory when not logged in. If the inventory is shown, the player will be unable to drop items and modify the inventory.
+* Fixed non-logged in players being able to damage other entities.
+* Fixed all players having to register even when forced registration was set to false.
+
+***
+**Version 2.0.5** - April 2, 2012
+* Fixed: Players unable to log in after their session has expired. (Issue #101)
+* Added: Configuration node to toggle AuthURL login broadcasts (authurl.broadcast-login).
+* Added: Permission node to bypass account limit (xauth.bypass.acclimit).
+
+***
 **Version 2.0.4** - April 1, 2012
 * Fixed (for the most part) the loss of items/location when a non-logged in player is kicked as a result of a player with the same name joining. (This can still occur under extremely rare conditions that should never happen in the first place)
 * Fixed issue where a player could register one more account than the account limit.
