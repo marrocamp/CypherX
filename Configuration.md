@@ -59,7 +59,9 @@
 
 <pre><code>main:
   auto-disable: true
+  check-for-updates: true
   download-library: true
+  reload-on-join: false
 mysql:
   enabled: false
   host: localhost
@@ -87,6 +89,7 @@ registration:
   validate-email: false
   account-limit: 1
   activation: false
+  require-login: true
 password:
   min-length: 6
   allow-change: true
@@ -123,6 +126,8 @@ session:
 strikes:
   amount: 5
   lockout-length: 3600
+account:
+  track-last-login: false
 filter:
   min-length: 2
   allowed: ''
