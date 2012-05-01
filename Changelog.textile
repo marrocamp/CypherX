@@ -1,12 +1,12 @@
 **Version 2.0.7** - April 30, 2012
-*Added option (main.reload-on-join) to reload cached player data when they connect to the server.
-*Added option (account.update-last-login) to toggle updating of the lastlogindate & lastloginip database fields.
-*Added ability to check if a new update is available.
-*Fixed /xauth reload allowing non-logged in players to bypass /login.
-*Re-added reverse-enforce-single-session feature for those also running the Spout plugin. Will be fully implemented when I figure out how using Spout resolves the exploit.
-*Removed support for individual Permissions plugins since they all support Bukkit Permissions.
-*Added option to enable/disable required login after registration.
-*Fixed server crash involving a player logging out with no solid block below them while location protection was disabled.
+* Added option (main.reload-on-join) to reload cached player data when they connect to the server.
+* Added option (account.update-last-login) to toggle updating of the lastlogindate & lastloginip database fields.
+* Added ability to check if a new update is available.
+* Fixed /xauth reload allowing non-logged in players to bypass /login.
+* Re-added reverse-enforce-single-session feature for those also running the Spout plugin. Will be fully implemented when I figure out how using Spout resolves the exploit.
+* Removed support for individual Permissions plugins since they all support Bukkit Permissions.
+* Added option to enable/disable required login after registration.
+* Fixed server crash involving a player logging out with no solid block below them while location protection was disabled.
 
 ***
 **Version 2.0.6** - April 19, 2012
