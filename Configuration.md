@@ -1,7 +1,9 @@
 |Node|Type|Default Value|Description|
 |----|----|-------------|-----------|
 |main.auto-disable|Boolean|true|If set to true, xAuth will disable itself if the server is running in online-mode.|
+|main.check-for-updates|Boolean|true|Toggle automatic checking for updates.|
 |main.download-library|Boolean|true|If set to true, xAuth will automatically download the required H2 library if it does not exist.|
+|main.reload-on-join|Boolean|true|Turn on/off reloading of cached player data when a player connects.|
 |mysql.enabled|Boolean|false|Use MySQL?|
 |mysql.host|String|localhost|Location of the MySQL server. Can be either a host name or IP address.|
 |mysql.port|Integer|3306|Port used by the MySQL server.
@@ -25,6 +27,7 @@
 |registration.validate-email|Boolean|true|If set to true, email addresses will be checked for validity.|
 |registration.account-limit|Integer|1|Controls how many accounts a specific IP address can register.|
 |registration.activation|Boolean|false|Used with web registrations that require account activation.|
+|registration.require-login|Boolean|true|Controls whether logging in after registering is required.|
 |password.min-length|Integer|6|Minimum length of a valid password.|
 |password.allow-change|Boolean|true|Enable/disable password changes.|
 |password.complexity.lowercase|Boolean|false|If set to true, passwords will require at least one lowercase character.|
