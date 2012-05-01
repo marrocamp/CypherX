@@ -52,6 +52,7 @@
 |session.godmode-length|Integer|5|Length of time, in seconds, that a player will have godmode upon logging in.<br />Set to 0 to disable.|
 |strikes.amount|Integer|5|Amount of times a player can enter an incorrect password before action is taken.<br />Set to 0 to disable.|
 |strikes.lockout-length|Integer|3600|Length of time, in seconds, that a player will be locked out after passing the strike threshold.<br />Set to 0 for a permanent ban.|
+|account.track-last-login|Boolean|false|If set to true, the lastloginip and lastlogindate database fields will be updated.|
 |filter.min-length|Integer|2|Minimum length a players name can be.|
 |filter.allowed|String||Characters that may be present in a players name.|
 |filter.disallowed|String||Characters that may NOT be present in a players name.|
