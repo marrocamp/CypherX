@@ -1,3 +1,5 @@
+This page includes translations for the default messages included with xAuth. These translations are all user-created thus I am not responsible for their accuracy or updating them.
+***
 ## Polish
 <pre><code>join:
   register: '{RED}Nie jestes zarejestrowany.{NEWLINE}{RED}Zarejestruj sie wpisujac /register
