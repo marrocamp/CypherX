@@ -1,5 +1,5 @@
 <pre>join:
-    register: '{RED}You are not registered.{NEWLINE}{RED}Please register using /register \\<password\\>.'
+    register: '{RED}You are not registered.{NEWLINE}{RED}Please register using /register <password>.'
     login: '{RED}Please log in using /login <password>.'
     resume: '{BRIGHTGREEN}Welcome back, your login session has been resumed.'
     error:
