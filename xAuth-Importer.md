@@ -1,7 +1,10 @@
-xAuth Importer is a tool used to import Account, Inventory, and Location data from previous versions of xAuth to the current version.  Select the proper download for your situation from the list below.
+xAuth Importer is a tool used to import Account, Inventory, and Location data from previous versions of xAuth and AuthMe to the latest version of xAuth.
 ***
 
-* **xAuth v1.0 - xAuth v1.2.5 (FlatFile to MysQL)** - [Download Here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28FlatFile%20to%20MySQL%29.zip)
-* **xAuth v2.0b4.1 and higher (H2 to H2)** - [Download Here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28H2%20to%20H2%29.zip)
-* **xAuth v2.0b4.1 and higher (H2 to MySQL)** - [Download Here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28H2%20to%20MySQL%29.zip)
-* **xAuth v2.0b4.1 and higher (MySQL to MySQL)** - [Download Here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter%20%28MySQL%20to%20MySQL%29.zip)
+## How to use the importer
+1. Click [here] (http://dl.dropbox.com/u/24661378/Bukkit/xAuth/Importer/xAuthImporter.zip) to download the importer.
+2. Extract the contents of the .zip into the same location.
+3. Open Command Prompt (Windows), CLI (*nix), Terminal (Mac).
+4. Type `cd path\to\importer` (replace path\to\importer with the actual path on your computer) and press Enter.
+5. Type `java -jar xAuthImporter.jar` and press Enter to begin the import process.
+6. Follow the on-screen instructions.
