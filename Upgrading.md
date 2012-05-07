@@ -1,0 +1,1 @@
+Click [here] (https://github.com/CypherX/xAuth/wiki/xAuth-Importer).
