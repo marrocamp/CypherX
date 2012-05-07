@@ -1,4 +1,4 @@
-xAuth Importer is a tool used to import Account, Inventory, and Location data from previous versions of xAuth and AuthMe to the latest version of xAuth.
+xAuth Importer is a tool used to import Account, Inventory, and Location data from previous versions of xAuth and AuthMe to be used with the latest version of xAuth.
 ***
 
 ## How to use the Importer
