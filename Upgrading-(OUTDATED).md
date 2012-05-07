@@ -1,4 +1,4 @@
-# THIS PAGE IS OUTDATED
+## THIS PAGE IS OUTDATED
 
 This page explains how to upgrade to xAuth 2.0 from older versions.
 
