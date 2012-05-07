@@ -1,3 +1,9 @@
+**Version 2.0.8** - May 6, 2012
+* All spawn location issues should be fixed.
+* Internal Server errors while joining should be fixed.
+* Reverse-enforce-single-session fully re-implemented for those using CraftBukkit 1.2.5-R1.3 or later.
+
+***
 **Version 2.0.7** - April 30, 2012
 * Added option (main.reload-on-join) to reload cached player data when they connect to the server.
 * Added option (account.update-last-login) to toggle updating of the lastlogindate & lastloginip database fields.
