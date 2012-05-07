@@ -1,5 +1,5 @@
-<code>join:
-    register: '{RED}You are not registered.{NEWLINE}{RED}Please register using /register <password>.'
+<pre>join:
+    register: '{RED}You are not registered.{NEWLINE}{RED}Please register using /register \<password\>.'
     login: '{RED}Please log in using /login <password>.'
     resume: '{BRIGHTGREEN}Welcome back, your login session has been resumed.'
     error:
@@ -116,7 +116,7 @@ admin:
             exist: '{RED}This configuration node does not exist!'
             int: '{RED}This configuration node requires an integer value!'
             invalid: '{RED}This setting cannot be altered using this command!'
-        success: '{BRIGHTGREEN}Configuration updated!'</code>
+        success: '{BRIGHTGREEN}Configuration updated!'</pre>
 
 ***
 **String Replacements**
