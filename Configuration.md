@@ -21,6 +21,9 @@
 |authurl.status|Boolean|false|Turn on/off AuthURL online/offline status updates.|
 |authurl.groups|Boolean|false|Turn on/off AuthURL permission group settings.|
 |authurl.broadcast-login|Boolean|false|Turn on/off global notifications when a player logins|
+|single-session.reverse|Boolean|true|Enable reverse-enforce-single-session for authenticated players.|
+|single-session.guests.reverse|Boolean|false|Enable reverse-enforce-single-session for non-logged in players.|
+|single-session.guests.immunity-length|Integer|5|Length of time, in seconds, that non-logged in players will be immune to being disconnected by another player with the same name if guest reverse is disabled.|
 |registration.enabled|Boolean|true|Turn on/off new registrations.|
 |registration.forced|Boolean|true|If set to true, all players will be forced to register.|
 |registration.require-email|Boolean|false|Setting this to true requires a player to enter an email address upon registration.|
