@@ -86,12 +86,17 @@ authurl:
   status: false
   groups: false
   broadcast-login: false
+single-session:
+  reverse: true
+  guests:
+    reverse: false
+    immunity-length: 5
 registration:
   enabled: true
   forced: true
   require-email: false
   validate-email: false
-  account-limit: 1
+  account-limit: 0
   activation: false
   require-login: true
 password:
