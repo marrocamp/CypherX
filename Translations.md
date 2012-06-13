@@ -3,3 +3,4 @@ This page includes translations for the default messages included with xAuth. Th
 **Polish**: http://pastebin.com/DWQmAQrX (by winnux8)  
 **Italian**: http://pastebin.com/tCwWeWdT (by texita)  
 **German**: http://pastebin.com/LTQURaDG (by djrazr)  
+**French**: http://pastebin.com/VNA4nq6w (by Allan007)  
