@@ -4,4 +4,4 @@ This page includes translations for the default messages included with xAuth. Th
 **Italian**: http://pastebin.com/tCwWeWdT (by texita)  
 **German**: http://pastebin.com/LTQURaDG (by djrazr)  
 **French**: http://pastebin.com/VNA4nq6w (by Allan007)  
-**Russian**: http://pastebin.com/5Kf3MA6c (by Egor33345)  
+**Russian**: http://pastebin.com/0qkG2RUY (by Egor33345)  
